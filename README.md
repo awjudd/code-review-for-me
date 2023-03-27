@@ -13,5 +13,9 @@ Once the code review is complete, it would be great if you could:
 
 ## Links
 
-* [Submit a PR](https://github.com/awjudd/code-review-for-me/pulls)
+* [Submit a Code Review](https://github.com/awjudd/code-review-for-me/issues/new/choose)
 * [Looking to help?](https://github.com/awjudd/code-review-for-me/issues)
+
+## Recognition
+
+As you respond to Code Review requests we will slowly add your name here thanking you for your contributions to the community!
