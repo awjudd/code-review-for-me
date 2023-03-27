@@ -1,0 +1,33 @@
+name: Code Review Please!
+description: You have written some code and want someone to review it for you! That's why we are here!
+title: "[Code Review]: "
+labels: ["code-review", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please take some time to fill out this form completely because it will help you get the most out of your code review!
+
+  - type: input
+    id: repository
+    attributes:
+      label: Repository/Pull Request Link
+      description: Copy and paste the link to the pull request that you would like to have reviewed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: goals
+    attributes:
+      label: What are you looking to get out of this code review?
+      description: Is there something specific you would like to have the reviewer look for?
+    validations:
+      required: true
+
+  - type: input
+    id: technologies
+    attributes:
+      label: Technologies Used
+      description: What different technologies are you using? This will help to get the right developers looking at your pull request!
+    validations:
+      required: true
